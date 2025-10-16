@@ -1,0 +1,20 @@
+[project]
+name = "shanzhai-factor"
+version = "0.1.0"
+description = "Research tooling for computing and analysing a crypto shanzhai factor"
+authors = [{name = "Quant Research"}]
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
